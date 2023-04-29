@@ -26,3 +26,10 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "120"
 vim.g.mapleader = " "
+
+vim.o.clipboard = 'unnamedplus'
+vim.o.breakindent = true
+
+vim.o.ignorecase = true
+vim.o.smartcase = true
+
