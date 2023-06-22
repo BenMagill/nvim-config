@@ -35,6 +35,7 @@ return require('packer').startup(function(use)
     use('airblade/vim-gitgutter')
   use('github/copilot.vim')
   use('preservim/nerdcommenter')
+  use('puremourning/vimspector')
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
