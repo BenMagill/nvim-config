@@ -33,7 +33,7 @@ return require('packer').startup(function(use)
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
     use('airblade/vim-gitgutter')
-  use('github/copilot.vim')
+  use('zbirenbaum/copilot.lua')
   use('preservim/nerdcommenter')
   use('puremourning/vimspector')
 

@@ -84,10 +84,10 @@ _G.packer_plugins = {
     path = "/home/ben/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["copilot.vim"] = {
+  ["copilot.lua"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/copilot.vim",
-    url = "https://github.com/github/copilot.vim"
+    path = "/home/ben/.local/share/nvim/site/pack/packer/start/copilot.lua",
+    url = "https://github.com/zbirenbaum/copilot.lua"
   },
   harpoon = {
     loaded = true,
@@ -108,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ben/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  nerdcommenter = {
+    loaded = true,
+    path = "/home/ben/.local/share/nvim/site/pack/packer/start/nerdcommenter",
+    url = "https://github.com/preservim/nerdcommenter"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -175,6 +180,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
     url = "https://github.com/airblade/vim-gitgutter"
+  },
+  vimspector = {
+    loaded = true,
+    path = "/home/ben/.local/share/nvim/site/pack/packer/start/vimspector",
+    url = "https://github.com/puremourning/vimspector"
   }
 }
 
