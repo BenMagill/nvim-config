@@ -20,3 +20,14 @@ map({ "n" }, "<leader>pv", "<cmd>Explore<cr>", { desc = "Open netrw" })
 map({ "n" }, "<C-o>", "<cmd>Explore<cr>", { desc = "Open netrw" })
 
 map({ "n" }, "<C-p>", "<cmd>Telescope find_files<cr>", { desc = "Find files" })
+
+vim.keymap.set("n", "<leader>y", '"+y')
+vim.keymap.set("v", "<leader>y", '"+y')
+vim.keymap.set("n", "<leader>Y", '"+Y')
+
+--map("n", "<A-j>", "<cmd>m .+1<cr>==", { desc = "Move down" })
+--map("n", "<A-k>", "<cmd>m .-2<cr>==", { desc = "Move up" })
+--map("i", "<A-j>", "<esc><cmd>m .+1<cr>==gi", { desc = "Move down" })
+--map("i", "<A-k>", "<esc><cmd>m .-2<cr>==gi", { desc = "Move up" })
+--map("v", "<A-j>", ":m '>+1<cr>gv=gv", { desc = "Move down" })
+--map("v", "<A-k>", ":m '<-2<cr>gv=gv", { desc = "Move up" })
